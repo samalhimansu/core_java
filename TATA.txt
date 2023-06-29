@@ -1,0 +1,14 @@
+public class TATA {
+	public static void main (String args[]){
+		Demo dd = Demo.createintance();
+		dd.setData(12);
+		System.out.println("Data value for the object is : "+dd.getData());
+		Demo.dd
+		Demo aa = Demo.createinstance();
+		System.out.print("Data value for the object is : "aa.getData());
+		if(dd==aa){
+			System.out.println("it is singleton class.");
+			}else{
+			System.out.println("it is not a singleton class.");
+			}
+		}
